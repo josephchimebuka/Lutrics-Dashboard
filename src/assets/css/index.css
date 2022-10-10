@@ -25,8 +25,7 @@ html {
   --primary-900: #1e3a8a;
 
   /* grey */
-  --grey-50: #FCF8F2;
-   /* #FCF8F2  #f0f4f8 */
+  --grey-50: #f0f4f8;
   --grey-100: #d9e2ec;
   --grey-200: #bcccdc;
   --grey-300: #9fb3c8;
@@ -59,7 +58,7 @@ html {
   --fixed-width: 500px;
   --fluid-width: 90vw;
   --breakpoint-lg: 992px;
-  --nav-height: 5rem;
+  --nav-height: 6rem;
   /* box shadow*/
   --shadow-1: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
   --shadow-2: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
