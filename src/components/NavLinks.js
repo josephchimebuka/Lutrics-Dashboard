@@ -13,7 +13,7 @@ const NavLinks = ({toggleSidebarOpen}) => {
       }}
       key={id} onClick={toggleSidebarOpen
       }>
-        <span className='icon'>{icons}</span>
+        <span>{icons}</span>
           {text}
       </NavLink>
     })}

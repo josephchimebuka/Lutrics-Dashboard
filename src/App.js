@@ -10,6 +10,7 @@ function App() {
    <Routes>
     <Route path="/" element={<SharedLayout/>}>
 
+
     <Route index element={<Home/>}/>
     <Route path="/services" element={<Services/>}/>
     <Route path="/reports" element={<Reports/>}/>

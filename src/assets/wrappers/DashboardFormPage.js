@@ -2,10 +2,11 @@ import styled from 'styled-components'
 
 const Wrapper = styled.section`
   border-radius: var(--borderRadius);
-  width: 100%;
+  width: 80%;
   background: var(--white);
   padding: 3rem 2rem 4rem;
   box-shadow: var(--shadow-2);
+    margin: 30px;
   h3 {
     margin-top: 0;
   }

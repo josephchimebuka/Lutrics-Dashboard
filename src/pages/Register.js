@@ -30,6 +30,8 @@ const Register = () => {
     if(!email || !password || (!isMember && !name)){
       toast.error('Please fill out All fields');
       return;
+    }else{
+      toast.success('login successful')
     }
 
     if(isMember){
@@ -47,6 +49,7 @@ const Register = () => {
   return (
 
    <Wrapper className='full-page'>
+
     <form className='form' onSubmit={onSubmit}>
     <div className='header'>
           <img src={logo} alt='logo' className='logo' style={{width: '30%'}} />
