@@ -53,26 +53,25 @@ const Wrapper = styled.aside`
     .nav-link:hover .icon {
       color: var(--primary-500);
     }
-    .nav-link .active{
-      display: flex;
-      justify-content: space-between;
-      padding: 1rem 3rem;
-    }
+   
     .icon {
       font-size: 1.5rem;
       margin-right: 1rem;
-      /* display: grid;
-      place-items: center; */
+      display: grid;
+      place-items: center;
       display: inline;
       transition: var(--transition);
     }
     .active {
       color: var(--grey-900);
+      padding: 1rem 0;
+      padding-left: 2.5rem;
     }
     .active .icon {
       
       color: var(--primary-500);
     }
+   
   }
 `
 export default Wrapper

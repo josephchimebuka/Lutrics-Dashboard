@@ -3,6 +3,7 @@ import Wrapper from '../assets/wrappers/RegisterPage'
 import logo from "../assets/images/logo.png"
 import FormRow from '../components/FormRow'
 import {toast} from 'react-toastify'
+import { useNavigate } from 'react-router-dom'
 import {useSelector, useDispatch} from 'react-redux';
 import {loginUser, registerUser} from '../features/user/userSlice'
 
@@ -14,6 +15,7 @@ const initialState = {
   isMember: true
 }
 const Register = () => {
+  const navigate = useNavigate();
   const [values, setValues] = useState(initialState);
   const {user, isLoading}= useSelector((store) => store.user);
   const dispatch = useDispatch();
@@ -32,10 +34,12 @@ const Register = () => {
       return;
     }else{
       toast.success('login successful')
+      navigate('/dashboard');
     }
 
     if(isMember){
       dispatch(loginUser({ email: email, password: password}))
+      
 
       return;
     }

@@ -18,7 +18,7 @@ function Landing() {
             <h1>Lutrics <span>Eye</span></h1>
             <p>Lutrics eye is a web-based application, which enables prompt and easy reporting of events and activities..</p>
              <Link to='/register'>
-             <button className='btn btn-hero'> Login/Register</button>
+             <button className='btn btn-hero'>Get Started</button>
              </Link>
             
             </div>

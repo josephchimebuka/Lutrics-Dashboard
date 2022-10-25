@@ -10,7 +10,7 @@ const Navbar = () => {
 
   const {user} = useSelector((store)=> store.user);
   const dispatch = useDispatch();
-
+  
   const toggle = () =>{
     dispatch(toggleSidebarOpen())
   }
@@ -33,7 +33,7 @@ const Navbar = () => {
       onClick={()=> setShowdropdown(!showdropdown)}
       >
       <FaUserCircle/>
-      Joseph
+      JIZ foundation
       <AiOutlineCaretDown/>
       </button>
       <div className={ showdropdown ? 'dropdown show-dropdown ': 'dropdown'}>
