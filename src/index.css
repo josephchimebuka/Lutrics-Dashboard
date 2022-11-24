@@ -325,3 +325,22 @@ ul {
 .Toastify__toast {
   text-transform: capitalize;
 }
+
+.activities {
+  padding: 20px;
+}
+
+.activity {
+  box-sizing: border-box;
+  width: 45%;
+  padding: 20px 15px;
+  margin: 10px 20px 10px 0;
+  display: inline-block;
+  background-color: #ffe5bd;
+  border-radius: 5px;
+}
+
+.activity p {
+  padding: 0 5px;
+  margin: 0;
+}
