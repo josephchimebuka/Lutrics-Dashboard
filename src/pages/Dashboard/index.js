@@ -4,5 +4,6 @@ import Profile from "./Profile";
 import Reports from "./Reports";
 import Services from "./Services";
 import SharedLayout from "./SharedLayout";
+import HeatMap from "./HeatMap";
 
-export{Profile, Privacypolicy,Home, Reports, Services, SharedLayout};
+export{Profile, Privacypolicy,Home, Reports, Services, SharedLayout, HeatMap};

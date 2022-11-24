@@ -326,7 +326,7 @@ ul {
   text-transform: capitalize;
 }
 
-.activities {
+.activities, .heatmap {
   padding: 20px;
 }
 
@@ -343,4 +343,11 @@ ul {
 .activity p {
   padding: 0 5px;
   margin: 0;
+}
+
+.heatmap img {
+  display: block;
+  width: 45%;
+  height: auto;
+  margin: 0 auto;
 }
