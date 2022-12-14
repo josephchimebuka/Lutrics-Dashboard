@@ -1,7 +1,7 @@
 import React from 'react'
 import Wrapper from '../assets/wrappers/SmallSidebar'
 import {AiOutlineClose} from 'react-icons/ai'
-import logo from "../assets/images/logo.png"
+import logo from "../assets/images/lutrics-eye-logo.png"
 import { useSelector } from 'react-redux'
 import { toggleSidebarOpen } from '../features/user/userSlice'
 import { useDispatch, } from 'react-redux'

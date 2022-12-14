@@ -1,6 +1,6 @@
 import React from 'react'
 import Wrapper from '../assets/wrappers/BigSidebar'
-import logo from "../assets/images/logo.png"
+import logo from "../assets/images/lutrics-eye-logo.png"
 import NavLinks from './NavLinks'
 import { useSelector } from 'react-redux'
 

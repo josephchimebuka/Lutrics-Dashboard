@@ -36,9 +36,12 @@ function Home() {
           <StatItem key={index} {...stat}></StatItem>
           )
         })}
-        </Wrapper>
+      </Wrapper>
+      <div>
+        <h1>Registered Organizations</h1>
+      </div>
      <Image>
-     <img src={logo} alt='emergency' style={{width: '40%', height: '60%'}}/>
+     <img src={logo} alt='emergency' style={{width: '20%', height: 'auto'}}/>
      </Image>
   </>
   )

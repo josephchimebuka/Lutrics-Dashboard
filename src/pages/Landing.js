@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from "../assets/images/logo.png"
+import logo from "../assets/images/lutrics-eye-logo.png"
 import bg from "../assets/images/undraw_alert_re_j2op (1).svg"
 import styled from 'styled-components'
 import {Link} from 'react-router-dom'

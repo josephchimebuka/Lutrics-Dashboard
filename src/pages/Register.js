@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 import Wrapper from '../assets/wrappers/RegisterPage'
-import logo from "../assets/images/logo.png"
+import logo from "../assets/images/lutrics-eye-logo.png"
 import FormRow from '../components/FormRow'
 import {toast} from 'react-toastify'
 import { useNavigate } from 'react-router-dom'

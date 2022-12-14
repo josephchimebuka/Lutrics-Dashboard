@@ -2,7 +2,7 @@ import React,{useState} from 'react'
 import Wrapper from '../assets/wrappers/Navbar'
 import {AiOutlineMenuUnfold,AiOutlineCaretDown} from 'react-icons/ai'
 import {FaUserCircle} from 'react-icons/fa'
-import logo from "../assets/images/logo.png"
+import logo from "../assets/images/lutrics-eye-logo.png"
 import {useDispatch, useSelector} from 'react-redux'
 import { toggleSidebarOpen, logoutUser } from '../features/user/userSlice'
 
@@ -23,8 +23,8 @@ const Navbar = () => {
      className='toggle-btn'
      onClick={toggle}><AiOutlineMenuUnfold/></button>
      <div>
-     <img src={logo} alt='logo' className='logo' style={{ height: "100%"}}/>
-     <h3 className='logo-text'>Dashboard</h3>
+      <img src={logo} alt='logo' className='logo' style={{ height: "100%"}}/>
+      <h3 className='logo-text'>Dashboard</h3>
      </div>
 
      <div className='btn-container'>
@@ -33,7 +33,7 @@ const Navbar = () => {
       onClick={()=> setShowdropdown(!showdropdown)}
       >
       <FaUserCircle/>
-      JIZ foundation
+      PPBA
       <AiOutlineCaretDown/>
       </button>
       <div className={ showdropdown ? 'dropdown show-dropdown ': 'dropdown'}>
